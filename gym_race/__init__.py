@@ -5,7 +5,7 @@ register(
     entry_point='gym_race.envs:RaceEnv',
 )
 register(
-    id='Race-v0',
-    entry_point='gym_race.envs:RaceEnv',
+    id='RaceExtrahand-v0',
+    entry_point='gym_race.envs:RaceExtrahandEnv',
 )
 
