@@ -71,7 +71,7 @@ def terminate(self):    #__del__(self)
 	    self.sys.exit()
 
 
-class RoadRunner(gym.Env):
+class RaceEnv(gym.Env):
 	metadata = {
 			'render.modes': ['human', 'rgb_array', 'state_pixels'],
         'video.frames_per_second' : FPS
